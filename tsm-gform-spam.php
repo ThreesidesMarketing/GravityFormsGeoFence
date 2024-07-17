@@ -15,9 +15,9 @@
 class Tsm_Gform_Spam
 {
     // The two letter ISO 3166-1 alpha-2 country codes. (https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
-    // Eg. Australia = au, New Zealand = nz
+    // Eg. Australia = AU, New Zealand = NZ
     // To use multiple, separate with commas, ['au', 'nz']
-    protected $Tsm_Gform_Spam_COUNTRY_CODE = ['au'];
+    protected $Tsm_Gform_Spam_COUNTRY_CODE = ['au', 'AU'];
 
 
     function __construct()
